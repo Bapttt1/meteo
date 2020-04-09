@@ -1,0 +1,14 @@
+nav {
+    background: rgb(165, 169, 182);
+}
+nav li a {
+  text-decoration: none ;
+  color: bisque;
+  
+}
+nav li a:hover, nav li a:focus, nav li a:active {
+    text-decoration: none ;
+    color: rgb(11, 14, 19);
+  }
+
+body{background-color: bisque;}
