@@ -1,3 +1,8 @@
+function displayData (data){    
+    $(".temps").append(data.weather[0].main);
+}
+
+
 function sendRequest (nom){
     console.log(nom)
     $.ajax({
@@ -10,9 +15,6 @@ function sendRequest (nom){
       });
 }
 
-function displayData (data){
-    $(".temps").append(data.weather[0].main);
-}
 
 $(document).ready(function(){
 
