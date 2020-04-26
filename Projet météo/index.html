@@ -6,14 +6,19 @@
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <title>Météo</title>
     <link rel="stylesheet" href="style.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
         <nav>
-            <ul>
-            <li><a href="#" title="Accueil">Accueil </a></li>
-            <li><a href="#" title="Nous contacter">Contact</a></li>
-            <li><a href="#" title="Aide">Aide</a></li>
+            <ul> 
+            <li><a href="index.html" title="Accueil">Accueil </a></li>
+            <li><a href="mailto:hebergement_meteo@email.fr" > Contact</a></li>
+            <li><a href="" title="Aide">Aide</a></li>
             </ul>
         </nav>
     
@@ -30,18 +35,43 @@
         </form>
 
         <div class="informations">
-            <label >temps</label>
-              <p class="temps"></p>
-              <label >Température</label>
+
+            <label >Temps :</label>
+            <p class="Temps" ></p>
+            <p class="drapeau" ></p>
+            <div>
+              <label >Température :</label>
+              <p class="Température"></p>
+            </div>
+
+            <div>
+              <label >Température maximale : </label>
               <p class="TempératureMax"></p>
-              <label >TempératureMax</label>
-              <p class="TempératureMax"></p>
-              <label >TempératureMin</label>
+            </div>
+
+            <div>
+              <label >Température minmale : </label>
               <p class="TempératureMin"></p>
-          
+            </div>
+      
+        
+        <p>
+            <a class="btn btn-outline-light" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+              +
+            </a>
+        </p>
+        <div class="collapse" id="collapseExample">
+          <div class="card card-body">
+            bob
+           </div>
+        </div>
+    </div>
 
     </main>
+
+
     <footer>
+        <label >Gaubert Baptiste Info 1</label>
 
     </footer>
     <script src="Script.js"></script>
